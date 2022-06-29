@@ -1,14 +1,6 @@
 = ContainerApps and Quarkus Workshop
 Antonio Goncalves
 v1.0, {docdate}
-:allow-uri-read:
-:attribute-missing: warn
-:doctype: book
-:sectlinks:
-:sectanchors:
-:fights-github-raw: https://raw.githubusercontent.com/Azure/containerapps-quarkus-workshop-fights-app/main
-:heroes-github-raw: https://raw.githubusercontent.com/Azure/containerapps-quarkus-workshop-heroes-app/main
-:villains-github-raw: https://raw.githubusercontent.com/Azure/containerapps-quarkus-workshop-villains-app/main
 
 // Introduction
 include::0-introduction/introduction.adoc[leveloffset=+1]
