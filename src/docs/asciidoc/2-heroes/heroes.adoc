@@ -1,0 +1,12 @@
+[[heroes]]
+= Creating the Heroes Microservice
+
+'''
+
+
+[[heroes-listing-rest-resource]]
+.REST Resource
+[source,indent=0]
+----
+include::{heroes-github-raw}/src/main/java/com/azure/containerapps/quarkus/workshop/superheroes/hero/HeroResource.java[]
+----

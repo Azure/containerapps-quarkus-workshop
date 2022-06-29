@@ -27,6 +27,8 @@
 
     <properties>
         <asciidoctor.maven.plugin.version>2.2.2</asciidoctor.maven.plugin.version>
+        <!-- OTHER -->
+        <revision.date>${maven.build.timestamp}</revision.date>
     </properties>
 
     <build>
@@ -35,6 +37,49 @@
                 <groupId>org.asciidoctor</groupId>
                 <artifactId>asciidoctor-maven-plugin</artifactId>
                 <version>${asciidoctor.maven.plugin.version}</version>
+                <configuration>
+                    <attributes>
+                        <allow-uri-read/>
+                        <revdate>${revision.date}</revdate>
+                        <attribute-missing>warn</attribute-missing>
+                        <doctype>book</doctype>
+                        <sectlinks/>
+                        <sectanchors/>
+                        <!-- Code Source -->
+                        <source-highlighter>coderay</source-highlighter>
+                        <source-language>java</source-language>
+                        <!-- Captions -->
+                        <xrefstyle>short</xrefstyle>
+                        <listing-caption>Listing</listing-caption>
+                        <appendix-caption>Appendix</appendix-caption>
+                        <table-caption>Table</table-caption>
+                        <!-- Images -->
+                        <icons>font</icons>
+                        <data-uri/>
+                        <figure-caption>Figure</figure-caption>
+                        <!-- TOC -->
+                        <toc/>
+                        <toclevels>2</toclevels>
+                        <!-- ============= -->
+                        <!-- Microservices -->
+                        <!-- ============= -->
+                        <!-- Fights -->
+                        <fights-github-url>https://github.com/Azure/containerapps-quarkus-workshop-fights-app</fights-github-url>
+                        <fights-github-issue>https://github.com/Azure/containerapps-quarkus-workshop-fights-app/issues</fights-github-issue>
+                        <fights-github-raw>https://raw.githubusercontent.com/Azure/containerapps-quarkus-workshop-fights-app/main</fights-github-raw>
+                        <fights-github-clone>https://github.com/Azure/containerapps-quarkus-workshop-fights-app.git</fights-github-clone>
+                        <!-- Heroes -->
+                        <heroes-github-url>https://github.com/Azure/containerapps-quarkus-workshop-heroes-app</heroes-github-url>
+                        <heroes-github-issue>https://github.com/Azure/containerapps-quarkus-workshop-heroes-app/issues</heroes-github-issue>
+                        <heroes-github-raw>https://raw.githubusercontent.com/Azure/containerapps-quarkus-workshop-heroes-app/main</heroes-github-raw>
+                        <heroes-github-clone>https://github.com/Azure/containerapps-quarkus-workshop-heroes-app.git</heroes-github-clone>
+                        <!-- Villains -->
+                        <villains-github-url>https://github.com/Azure/containerapps-quarkus-workshop-villains-app</villains-github-url>
+                        <villains-github-issue>https://github.com/Azure/containerapps-quarkus-workshop-villains-app/issues</villains-github-issue>
+                        <villains-github-raw>https://raw.githubusercontent.com/Azure/containerapps-quarkus-workshop-villains-app/main</villains-github-raw>
+                        <villains-github-clone>https://github.com/Azure/containerapps-quarkus-workshop-villains-app.git</villains-github-clone>
+                    </attributes>
+                </configuration>
                 <executions>
                     <execution>
                         <id>asciidoc-to-html</id>

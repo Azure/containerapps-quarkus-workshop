@@ -1,5 +1,5 @@
 [[villains]]
-= Creating a _classical_ REST/HTTP Microservice
+= Creating the Villains Microservice
 
 '''
 
@@ -33,3 +33,10 @@ But first, let's describe our service.
 The Super-Villains microservice manages villains with their names, powers, and so on.
 The REST API allows adding, removing, listing, and picking a random villain from the stored set.
 Nothing outstanding but a good first step to discover Quarkus.
+
+[[villains-listing-rest-resource]]
+.REST Resource
+[source,indent=0]
+----
+include::{villains-github-raw}/src/main/java/com/azure/containerapps/quarkus/workshop/superheroes/villain/VillainResource.java[]
+----
