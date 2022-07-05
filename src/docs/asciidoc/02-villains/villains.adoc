@@ -1,5 +1,5 @@
 [[villains]]
-= Creating the Villains Microservice
+= Villains Microservice
 
 '''
 

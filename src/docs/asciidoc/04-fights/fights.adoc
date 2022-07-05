@@ -1,5 +1,5 @@
-[[heroes]]
-= Creating the Fights Microservice
+[[fights]]
+= Fights Microservice
 
 '''
 

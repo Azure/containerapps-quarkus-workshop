@@ -1,5 +1,5 @@
 [[heroes]]
-= Creating the Heroes Microservice
+= Heroes Microservice
 
 '''
 

@@ -2,18 +2,22 @@
 Antonio Goncalves
 v1.0, {docdate}
 
+// Welcome
+include::00-welcome/welcome.adoc[leveloffset=+1]
+<<<
+
 // Introduction
-include::0-introduction/introduction.adoc[leveloffset=+1]
+include::01-introduction/introduction.adoc[leveloffset=+1]
 <<<
 
 // Villains Microservice
-include::1-villains/villains.adoc[leveloffset=+1]
+include::02-villains/villains.adoc[leveloffset=+1]
 <<<
 
 // Heroes Microservice
-include::2-heroes/heroes.adoc[leveloffset=+1]
+include::03-heroes/heroes.adoc[leveloffset=+1]
 <<<
 
 // Fights Microservice
-include::3-fights/fights.adoc[leveloffset=+1]
+include::04-fights/fights.adoc[leveloffset=+1]
 <<<

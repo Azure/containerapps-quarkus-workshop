@@ -1,4 +1,4 @@
-[[introduction]]
+[[welcome]]
 = Welcome
 Let's start from the beginning.
 Quarkus.
@@ -42,3 +42,28 @@ What you are going to learn:
 * And much more!
 
 Ready? Here we go!
+
+== Presenting the Workshop
+
+=== What Is This Workshop About?
+
+=== What Will You Be Developing?
+
+=== What Will You Be Deploying?
+
+=== How Does This Workshop Work?
+
+=== What Do You Have to Do?
+
+=== Software Requirements
+
+== Installing Software
+
+=== VS Code
+
+== Preparing for the Workshop
+
+=== Setting Up Azure
+
+=== Setting Up GitHub
+

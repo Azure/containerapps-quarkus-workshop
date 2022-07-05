@@ -59,7 +59,7 @@
                         <figure-caption>Figure</figure-caption>
                         <!-- TOC -->
                         <toc/>
-                        <toclevels>2</toclevels>
+                        <toclevels>3</toclevels>
                         <!-- ============= -->
                         <!-- Microservices -->
                         <!-- ============= -->
