@@ -1,0 +1,28 @@
+[[observalibility]]
+= Observalibility
+
+'''
+
+
+[[communication-listing-rest-resource]]
+.REST Resource
+[source,indent=0]
+----
+include::{fights-github-raw}/src/main/java/com/azure/containerapps/quarkus/workshop/superheroes/fight/FightResource.java[]
+----
+
+== Health Check
+
+=== Directory Structure
+
+=== Installing the Health Dependency
+
+=== Running the Default Health Check
+
+=== Adding Custom Health Checks
+
+== Deploying the Application
+
+== Monitoring
+
+
