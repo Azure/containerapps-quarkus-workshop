@@ -1,0 +1,42 @@
+[[observalibility]]
+= Event-Driven and Reactive Microservices
+
+'''
+
+
+[[communication-listing-rest-resource]]
+.REST Resource
+[source,indent=0]
+----
+include::{fights-github-raw}/src/main/java/com/azure/containerapps/quarkus/workshop/superheroes/fight/FightResource.java[]
+----
+
+== Sending Messages
+
+=== Directory Structure
+
+=== Installing the Reactive Messaging Dependency
+
+=== Connecting Imperative and Reactive Using an Emitter
+
+=== Connecting to Kafka
+
+== Receiving Messages
+
+=== Bootstrapping the Fallback Microservice
+
+=== Directory Structure
+
+=== Consuming Messages
+
+=== Storing Messages
+
+== Deploying the Fallback Microservice
+
+=== Creating the Managed Mongo DB Database
+
+=== Refactoring the CI/CD Pipeline
+
+=== Deploying the Fights Microservice
+
+

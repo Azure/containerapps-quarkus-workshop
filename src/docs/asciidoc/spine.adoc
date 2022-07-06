@@ -30,10 +30,14 @@ include::05-ui/ui.adoc[leveloffset=+1]
 include::06-communication/communication.adoc[leveloffset=+1]
 <<<
 
-// Oberservability
-include::07-observalibility/observalibility.adoc[leveloffset=+1]
+// Events
+include::07-events/events.adoc[leveloffset=+1]
+<<<
+
+// Observability
+include::08-observalibility/observalibility.adoc[leveloffset=+1]
 <<<
 
 // Scaling
-include::08-scaling/scaling.adoc[leveloffset=+1]
+include::09-scaling/scaling.adoc[leveloffset=+1]
 <<<
