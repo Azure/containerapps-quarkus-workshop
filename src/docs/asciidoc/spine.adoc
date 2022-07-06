@@ -21,3 +21,11 @@ include::03-heroes/heroes.adoc[leveloffset=+1]
 // Fights Microservice
 include::04-fights/fights.adoc[leveloffset=+1]
 <<<
+
+// UI
+include::05-ui/ui.adoc[leveloffset=+1]
+<<<
+
+// Communication
+include::06-communication/communication.adoc[leveloffset=+1]
+<<<

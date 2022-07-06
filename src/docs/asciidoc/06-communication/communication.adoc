@@ -1,0 +1,39 @@
+[[communication]]
+= HTTP Communication & Fault Tolerance
+
+'''
+
+
+[[communication-listing-rest-resource]]
+.REST Resource
+[source,indent=0]
+----
+include::{fights-github-raw}/src/main/java/com/azure/containerapps/quarkus/workshop/superheroes/fight/FightResource.java[]
+----
+
+== CORS
+
+== REST Client
+
+=== Directory Structure
+
+=== Installing the REST Client Dependency
+
+=== Creating the Interfaces
+
+=== Configuring the REST Client Invocations
+
+=== Updating the Test with Mock Support
+
+== Fallbacks
+
+=== Installing the Fault Tolerance Dependency
+
+=== Adding Fallbacks
+
+=== Adding Timeouts
+
+=== Running the Application
+
+== Deploying the Fights Microservice
+

@@ -40,3 +40,65 @@ Nothing outstanding but a good first step to discover Quarkus.
 ----
 include::{villains-github-raw}/src/main/java/com/azure/containerapps/quarkus/workshop/superheroes/villain/VillainResource.java[]
 ----
+
+== Bootstrapping the Villains Microservice
+
+=== Directory Structure
+
+=== The Villain REST Resource
+
+=== Running the Application
+
+=== Development Mode
+
+=== Testing the Application
+
+== Transactions and ORM
+
+=== Directory Structure
+
+=== Installing the PostgreSQL Dependency, Hibernate with Panache and Hibernate Validator
+
+=== The Villain Entity
+
+=== Configuring Hibernate
+
+=== Accessing a database in dev mode
+
+=== Refactoring the Villain REST Resource
+
+=== Dependency Injection
+
+=== Adding Data
+
+=== Testing the Villain REST Resource
+
+== Configuring the Villains Microservice
+
+=== Configuring Logging
+
+=== Configuring Quarkus Listening Port
+
+== Open API
+
+=== Directory Structure
+
+=== Installing the OpenAPI extension
+
+=== Default Open API Contract
+
+=== Customizing the Open API Contract
+
+==== Customizing Methods
+
+==== Customizing the Application
+
+==== Customized Contract
+
+== Deploying the Villains Microservice
+
+=== Creating the Managed Postgres Database
+
+=== Refactoring the CI/CD Pipeline
+
+=== Deploying the Villains Microservice

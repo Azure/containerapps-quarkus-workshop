@@ -1,0 +1,26 @@
+[[ui]]
+= User Interface
+
+'''
+
+
+[[ui-listing-rest-resource]]
+.REST Resource
+[source,indent=0]
+----
+include::{fights-github-raw}/src/main/java/com/azure/containerapps/quarkus/workshop/superheroes/fight/FightResource.java[]
+----
+
+== Bootstrapping the Web Application
+
+=== Directory Structure
+
+=== The Fight Component
+
+=== The Ping Component
+
+=== Generating the Services
+
+=== Running the Web Application
+
+== Deploying the Web Application

@@ -65,5 +65,19 @@ Ready? Here we go!
 
 === Setting Up Azure
 
+==== Setting Up the Environment Variables
+
+==== Setting Up the Azure Environment
+
+==== Creating the Azure Resources
+
+===== Creating the Container Apps environment
+
+===== Resource Group
+
+===== Log Analytics Workspace
+
+===== Azure Container Registry
+
 === Setting Up GitHub
 
