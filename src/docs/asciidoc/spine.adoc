@@ -1,4 +1,4 @@
-= ContainerApps and Quarkus Workshop
+= Azure Container Apps and Quarkus Workshop
 Antonio Goncalves
 v1.0, {docdate}
 

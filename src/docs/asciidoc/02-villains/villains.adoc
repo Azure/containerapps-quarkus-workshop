@@ -13,10 +13,6 @@ It's using the _imperative_ development model.
 
 The _fight_ microservice will use this service.
 
-[plantuml,align=center,width=300]
-----
-include::{plantDir}/1-rest-physical-architecture.puml[]
-----
 
 In the following sections, you learn:
 

@@ -49,6 +49,11 @@ Ready? Here we go!
 
 === What Will You Be Developing?
 
+[plantuml,align=center,format=png]
+----
+include::{plantDir}/welcome-physical-architecture.puml[]
+----
+
 === What Will You Be Deploying?
 
 === How Does This Workshop Work?

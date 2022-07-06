@@ -27,6 +27,8 @@
 
     <properties>
         <asciidoctor.maven.plugin.version>2.2.2</asciidoctor.maven.plugin.version>
+        <version.asciidoctorj>2.5.4</version.asciidoctorj>
+        <version.asciidoctorj.diagram>2.2.3</version.asciidoctorj.diagram>
         <!-- OTHER -->
         <revision.date>${maven.build.timestamp}</revision.date>
     </properties>
@@ -37,9 +39,23 @@
                 <groupId>org.asciidoctor</groupId>
                 <artifactId>asciidoctor-maven-plugin</artifactId>
                 <version>${asciidoctor.maven.plugin.version}</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.asciidoctor</groupId>
+                        <artifactId>asciidoctorj</artifactId>
+                        <version>${version.asciidoctorj}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.asciidoctor</groupId>
+                        <artifactId>asciidoctorj-diagram</artifactId>
+                        <version>${version.asciidoctorj.diagram}</version>
+                    </dependency>
+                </dependencies>
                 <configuration>
                     <attributes>
                         <allow-uri-read/>
+                        <imagesdir>../images</imagesdir>
+                        <plantDir> ../plantuml</plantDir>
                         <revdate>${revision.date}</revdate>
                         <attribute-missing>warn</attribute-missing>
                         <doctype>book</doctype>
@@ -60,6 +76,9 @@
                         <!-- TOC -->
                         <toc/>
                         <toclevels>3</toclevels>
+                        <!-- Java -->
+                        <jdk-version>11</jdk-version>
+                        <maven-version>3.8.x</maven-version>
                         <!-- ============= -->
                         <!-- Microservices -->
                         <!-- ============= -->
