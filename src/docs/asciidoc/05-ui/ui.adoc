@@ -11,7 +11,13 @@
 include::{fights-github-raw}/src/main/java/com/azure/containerapps/quarkus/workshop/superheroes/fight/FightResource.java[]
 ----
 
-== Bootstrapping the Web Application
+== (Optional) Bootstrapping the Web Application
+
+[IMPORTANT]
+====
+In this section you will develop the full Angular application so you can visually see the results of your REST APIs.
+If you don't want to do develop the user interface, you can download it, skip this section and continue on the _Running the Web Application_ section below.
+====
 
 === Directory Structure
 
